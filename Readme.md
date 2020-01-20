@@ -1,6 +1,6 @@
 # Личный проект «Техномарт»
 
-* Студент: [Максим](https://htmlacademy.ru/profile/id922783).
+* Студент: [Максим Сергейчик](https://htmlacademy.ru/profile/id922783).
 * Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora)
 
 ---
