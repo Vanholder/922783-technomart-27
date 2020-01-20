@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Максим](https://up.htmlacademy.ru/htmlcss/27/user/922783).
-* Наставник: `Неизвестно`.
+* Студент: [Максим](https://htmlacademy.ru/profile/id922783).
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora)
 
 ---
 
