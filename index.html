@@ -9,21 +9,23 @@
 <body>
   <header>
     <nav>
-      <a>
-        <img src="img/logo-technomart.svg" width="109" height="19" alt="Лого Техномарт">
+      <a href="index.html">
+        <img src="img/logo-technomart.svg" width="109" height="19" alt="Логотип Техномарт">
       </a>
-      <a>Поиск<input type="text" size="21"></a>
+      <a>Поиск<input type="search" size="21"></a>
       <ul>
         <li><a href="bookmarks.html">Закладки: <span>0</span></a></li>
         <li><a href="cart.html">Корзина: <span>0</span></a></li>
         <li><a href="complete-order.html">Оформить заказ</a></li>
       </ul>
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <p>+7(812)555-05-55</p>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p><a href="tel:+7(812)555-05-55">+7(812)555-05-55</a></p>
+      <p>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      </p>
       <ul>
-        <li><button type="button">Войти</button></li>
-        <li><button type="button">Регистрация</button></li>
+        <li><a href="login.html">Войти</a></li>
+        <li><a href="registration.html">Регистрация</a></li>
       </ul>
       <ul>
         <li><a href="index.html">Главная</a></li>
@@ -39,27 +41,23 @@
   <main>
     <section>
       <h2>Компания «Техномарт»</h2>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br> строительства не
+      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не
         оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
       <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими
         транспортными компаниями:</p>
       <ul>
-        <li>
-          Деловые линии
-        </li>
-        <li>
-          Автотрейдинг
-        </li>
-        <li>
-          ЖелДорЭкспедиция
-        </li>
+        <li>Деловые линии</li>
+        <li>Автотрейдинг</li>
+        <li>ЖелДорЭкспедиция</li>
       </ul>
       <button type="button">подробнее о компании</button>
     </section>
     <section>
       <h2>контакты</h2>
       <p>Вы можете забрать товар сами,заехав в наш офис:</p>
-      <img src="img/map.jpg" width="300" height="158" alt="Карта">
+      <a>
+        <img src="img/map-small.jpg" width="300" height="158" alt="Карта">
+      </a>
       <button type="button">Заблудились? напишите нам!</button>
     </section>
   </main>
@@ -74,7 +72,10 @@
       <li><a href="Delivery.html">Доставка</a></li>
       <li><a href="Contacts.html">Контакты</a></li>
     </ul>
-    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8+7 (812) 555-05-55</p>
+    <p>
+      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
+    </p>
     <ul>
       <li><a href="catalog/material.html">Материалы</a></li>
       <li><a href="catalog/technique.html">Техника</a></li>
@@ -94,6 +95,28 @@
       </ul>
     </div>
   </footer>
+  <div hidden>
+    <img src="img/map-big.jpg" width="940" height="446" alt="офис компании по адресу ул. Б. Конюшенная, д. 19/8">
+    <button type="button" aria-label="закрыть">x</button>
+  </div>
+  <div hidden>
+    <form action="*" method="POST">
+      <p>
+        <label for="form-name">Ваше Имя:</label>
+        <input id="form-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="form-email">Ваш e-mail:</label>
+        <input id="form-email" type="email" name="email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="form-massage">Текст письма:</label>
+        <input id="form-massage" type="text" name="massage" placeholder="В свободной форме">
+      </p>
+      <button type="submit">Отправить</button>
+      <button type="button" aria-label="закрыть">x</button>
+    </form>
+    </div>
 </body>
 
 </html>

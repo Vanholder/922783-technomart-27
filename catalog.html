@@ -9,18 +9,20 @@
 <body>
   <header>
     <nav>
-      <a href="index.html">
-        <img src="img/logo-technomart.svg" width="109" height="19" alt="Лого Техномарт">
+      <a>
+        <img src="img/logo-technomart.svg" width="109" height="19" alt="Логотип Техномарт">
       </a>
       <a>Поиск<input type="text" size="21"></a>
       <ul>
         <li><a href="bookmarks.html">Закладки: <span>0</span></a></li>
-        <li><a href="cart.html">Корзина: <span>10</span></a></li>
+        <li><a href="cart.html">Корзина: <span>0</span></a></li>
         <li><a href="complete-order.html">Оформить заказ</a></li>
       </ul>
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <p>+7(812)555-05-55</p>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p><a href="tel:+7(812)555-05-55">+7(812)555-05-55</a></p>
+      <p>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      </p>
       <!--Форма пользователя-->
       <ul>
         <li><a>Равшан Джамшутович</a></li>
@@ -40,110 +42,169 @@
     </nav>
   </header>
   <main>
+    <h1>перфораторы</h1>
     <ul>
-      <li><a href="index.html"><img src=# alt="main-page"></a></li>
-      <li><a href="catalog.html">каталог</a></li>
-      <li><a href="tool.html">инструмент</a></li>
+      <li>
+        <a href="index.html"><img src=# alt="Главная страница"></a>
+      </li>
+      <li>
+        <a href="catalog.html">каталог</a>
+      </li>
+      <li>
+        <a href="tool.html">инструмент</a>
+      </li>
       <li>перфораторы</li>
     </ul>
-    <h1>перфораторы</h1>
     <section>
-      <h3>производители</h3>
-      <!--фильтр форма-->
+      <form action="*" method="GET">
+        <h3>производители</h3>
+        <fieldset>
+          <ul>
+            <li>
+              <input type="checkbox" name="bosch" id="bosch" checked>
+              <label for="bosch">bosch</label>
+            </li>
+            <li>
+              <input type="checkbox" name="интерскол" id="interscol">
+              <label for="interscol">интерскол</label>
+            </li>
+            <li>
+              <input type="checkbox" name="makita" id="makita" checked>
+              <label for="makita">malita</label>
+            </li>
+            <li>
+              <input type="checkbox" name="dewalt" id="dewalt">
+              <label for="dewalt">dewalt</label>
+            </li>
+            <li>
+              <input type="checkbox" name="hitachi" id="hitachi">
+              <label for="hitachi">hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <h3>питание</h3>
+        <fieldset>
+          <li>
+            <input type="radio" name="powertype" id="battery" checked>
+            <label for="battery">аккамуляторное</label>
+          </li>
+          <li>
+            <input type="radio" name="powertype" id="powernet">
+            <label for="powernet">сетевое</label>
+          </li>
+        </fieldset>
+        <button type="submit">показать</button>
+      </form>
     </section>
-    <section>
-      <h3>питание</h3>
-      <!--фильтр форма-->
-    </section>
-    <button type="button">показать</button>
     <section>
       <ul>
         <li>
+          <a href="bfg3k.html">
           <h3>
-            <a href="bfg3k.html">Перфоратор BOSCH BFG 3000</a>
+          Перфоратор BOSCH BFG 3000
           </h3>
-          <p><a href="bfg3k.html">
-              <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
-            </a></p>
+          <p>
+            <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
+          </p>
+          </a>
           <p>22500 Р.</p>
           <button type="button">15500 P.</button>
+          <div hidden>
+            <button type="button">купить</button>
+            <button type="button">в вакладки</button>
+          </div>
         </li>
         <li>
+          <a href="bfg6k.html">
           <h3>
-            <a href="bfg6k.html">Перфоратор BOSCH BFG 6000</a>
+          Перфоратор BOSCH BFG 6000
           </h3>
-          <p><a href="bfg6k.html">
-              <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
+          </p>
+          </a>
           <p>30500 P.</p>
           <button type="button">25500 P.</button>
         </li>
         <li>
+          <a href="bfg2k.html">
           <h3>
-            <a href="bfg2k.html">Перфоратор BOSCH BFG 2000</a>
+          Перфоратор BOSCH BFG 2000
           </h3>
-          <ul>
-            <li><button type="button">КУПИТЬ</button></li>
-            <li><button type="button">В ЗАКЛАДКИ</button></li>
-          </ul>
+          <p>
+          <img src="img/perforator-bfgtwok.jpg" width="218" height="170" alt="BFG2000">
+          </p>
+          </a>
           <button type="button">12500 P.</button>
         </li>
         <li>
+          <a href="bfg3k.html">
           <h3>
-            <a href="bfg3k.html">Перфоратор BOSCH BFG 3000</a>
+          Перфоратор BOSCH BFG 3000
           </h3>
-          <p><a href="bfg3k.html">
-              <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
+          </p>
+          </a>
           <p>22500 Р.</p>
           <button type="button">15500 P.</button>
         </li>
         <li>
+          <a href="bfg6k.html">
           <h3>
-            <a href="bfg6k.html">Перфоратор BOSCH BFG 6000</a>
+          Перфоратор BOSCH BFG 6000
           </h3>
-          <p><a href="bfg6k.html">
-              <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
+          </p>
+          </a>
           <p>30500 P.</p>
           <button type="button">25500 P.</button>
         </li>
         <li>
+          <a href="bfg2k.html">
           <h3>
-            <a href="bfg2k.html">Перфоратор BOSCH BFG 2000</a>
+          Перфоратор BOSCH BFG 2000
           </h3>
-          <p><a href="bfg2k.html">
+          <p>
               <img src="img/perforator-bfgtwok.jpg" width="218" height="170" alt="BFG2000">
-            </a></p>
+          </p>
+          </a>
           <button type="button">12500 P.</button>
         </li>
         <li>
+          <a href="bfg3k.html">
           <h3>
-            <a href="bfg3k.html">Перфоратор BOSCHBFG 3000</a>
+          Перфоратор BOSCHBFG 3000
           </h3>
-          <p><a href="bfg3k.html">
-              <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgthreek.jpg" width="218" height="170" alt="BFG3000">
+          </p>
+          </a>
           <p>22500 Р.</p>
           <button type="button">15500 P.</button>
         </li>
         <li>
+          <a href="bfg6k.html">
           <h3>
-            <a href="bfg6k.html">Перфоратор BOSCH BFG 6000</a>
+           Перфоратор BOSCH BFG 6000
           </h3>
-          <p><a href="bfg6k.html">
-              <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgsixk.jpg" width="218" height="170" alt="BFG6000">
+          </p>
+          </a>
           <p>30500 P.</p>
           <button type="button">25500 P.</button>
         </li>
         <li>
+          <a href="bfg2k.html">
           <h3>
-            <a href="bfg2k.html">Перфоратор BOSCH BFG 2000</a>
+          Перфоратор BOSCH BFG 2000
           </h3>
-          <p><a href="bfg2k.html">
-              <img src="img/perforator-bfgtwok.jpg" width="218" height="170" alt="BFG2000">
-            </a></p>
+          <p>
+          <img src="img/perforator-bfgtwok.jpg" width="218" height="170" alt="BFG2000">
+          </p>
+          </a>
           <button type="button">12500 P.</button>
         </li>
       </ul>
@@ -180,6 +241,14 @@
       </ul>
     </div>
   </footer>
+  <div hidden>
+    <p>Товар добавлен в корзину!</p>
+    <a href="*">
+    <button type="button">оформить заказ</button>
+    </a>
+    <button type="button">продолжить покупки</button>
+    <button type="button" aria-label="закрыть">x</button>
+      </div>
 </body>
 
 </html>
