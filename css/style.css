@@ -1,0 +1,418 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  text-transform: inherit;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  background-color: #f4f7f9;
+}
+
+.search {
+  background-color: #293449;
+}
+
+.search::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.search::-moz-placeholder {
+  color: #ffffff;
+}
+
+.search:hover {
+  background-color: #212a3a;
+}
+
+.search:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main-navigation img {
+  padding: 14px 56px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
+.main-navigation img:hover {
+  background-color: #ca2c37;
+}
+
+.main-navigation img:focus {
+  background-color: #ba2732;
+}
+
+.up-navigation {
+  list-style: none;
+  background-color: #293449;
+}
+
+.down-navigation {
+  list-style: none;
+  line-height: 17px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+}
+
+.up-navigation a,
+.down-navigation a {
+  color: #ffffff;
+}
+
+.up-navigation a:hover {
+  background-color: #212a3a;
+}
+
+.down-navigation a:hover {
+  background-color: #293449;
+}
+
+.up-navigation a:focus {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.down-navigation a:focus {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.order a {
+  background-color: #63a63e;
+}
+
+.order a:hover {
+  background-color: #5fbb2d;
+}
+
+.order a:focus {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #518534;
+}
+
+.cart a {
+  background-color: #ee3643;
+  ;
+}
+
+.cart a:hover {
+  background-color: #ca2c37;
+}
+
+.cart a:focus {
+  background-color: #ba2732;
+}
+
+.nav-text {
+  width: 196px;
+  height: 60px;
+  font-family: "Cuprum";
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.nav-contacts {
+  text-align: center;
+}
+
+.nav-contacts a {
+  color: #e9292a;
+  width: 144px;
+  height: 21px;
+  font-family: "Cuprum";
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.nav-contacts address {
+  color: #32425c;
+  width: 260px;
+  height: 13px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nav-login {
+  list-style: none;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.nav-login-ed {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 21px;
+  line-height: 21px;
+  list-style: none;
+}
+
+.nav-login-ed a:focus,
+.logbut1 a:focus,
+.logbut2 a:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.logbut1,
+.logbut2 {
+  color: #32425c;
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+.logbut1 {
+  list-style: none;
+}
+
+.logbut1 a:hover,
+.logbut2 a:hover {
+  color: #ee3643;
+}
+
+.nav-login a {
+  color: #000000;
+}
+
+.nav-login a:hover {
+  color: #ee3643;
+}
+
+.nav-login a:focus {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.perforator {
+  background-color: #f2f6f8;
+  color: #32425c;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.ptsansections {
+  font-family: "PT sans";
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.breadcrumbs,
+.breadcrumbs a:visited {
+  font-family: "PT sans";
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.filtersname {
+  color: #000000;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter {
+  list-style: none;
+  line-height: 20px;
+  size: 15px;
+}
+
+.filterbutton {
+  padding: 15px 39px 14px 39px;
+  line-height: 16px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.goodsname {
+  font-family: "PT Sans";
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.goodsname h3 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.goodsname p {
+  color: #999999;
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: line-through;
+}
+
+.goodsname button {
+  color: #ffffff;
+  background-color: #ffffff;
+  background-image: url(red-button.svg);
+  background-repeat: no-repeat;
+  font-weight: bold;
+  border: none;
+  width: 141px;
+  height: 38px;
+}
+
+.main-info {
+  color: black;
+  text-align: left;
+}
+
+.main-info h2 {
+  line-height: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Cuprum";
+}
+
+.main-info p {
+  line-height: 24px;
+  font: 13px "PT Sans";
+}
+
+.main-info ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.main-info li {
+  padding-left: 1em;
+  text-indent: -1em;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main-info li::before {
+  content: "⚊";
+  color: red;
+  padding-right: 5px;
+}
+
+.buttcom {
+  width: 220px;
+  height: 38px;
+  background-color: #ee3643;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttform {
+  width: 300px;
+  height: 38px;
+  background-color: #ee3643;
+  text-align: center;
+  color: #ffffff;
+}
+
+.edge {
+  background-color: #32425c;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.edge ul {
+  list-style: none;
+}
+
+.edge img {
+  padding: 20px 41px 25px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
+.edge img:hover {
+  background-color: #ca2c37;
+}
+
+.edge img:focus {
+  background-color: #ba2732;
+}
+
+.up-edge a {
+  color: #f1f5f7;
+  text-align: left;
+}
+
+.up-edge a:hover {
+  text-decoration: underline;
+}
+
+.up-edge a:focus {
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration: none;
+}
+
+.down-edge a {
+  color: #ffd180;
+  text-align: left;
+}
+
+.down-edge a:hover {
+  text-decoration: underline;
+}
+
+.down-edge a:focus {
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration: none;
+}
+
+.edge-contacts a {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #f1f5f7;
+}
+
+.edge-contacts address {
+  font-style: normal;
+}
+
+.hell {
+  background-color: #293449;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.hellback a {
+  color: #ffd180;
+}
+
+.hellback a:hover {
+  text-decoration: underline;
+}
+
+.hellback a:focus {
+  text-decoration: none;
+  color: #ee3643;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
